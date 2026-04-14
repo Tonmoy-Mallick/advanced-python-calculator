@@ -1,5 +1,5 @@
 
-print("🔢 Simple Calculator")
+print(" Simple Calculator 🔢")
 
 while True:
     print("\n--- New Calculation ---")
@@ -8,7 +8,7 @@ while True:
         num1 = float(input("Enter first number: "))
         num2 = float(input("Enter second number: "))
     except ValueError:
-        print("❌ Please enter valid numbers!")
+        print(" Please enter valid numbers! ❌")
         continue
 
     print("\nChoose operation:")
@@ -20,22 +20,22 @@ while True:
     choice = input("Enter choice (1/2/3/4): ")
 
     if choice == '1':
-        print("✅ Result:", num1 + num2)
+        print(" Result ✅ :", num1 + num2)
 
     elif choice == '2':
-        print("✅ Result:", num1 - num2)
+        print(" Result ✅ :", num1 - num2)
 
     elif choice == '3':
-        print("✅ Result:", num1 * num2)
+        print(" Result ✅ :", num1 * num2)
 
     elif choice == '4':
         if num2 != 0:
-            print("✅ Result:", num1 / num2)
+            print(" Result ✅ :", num1 / num2)
         else:
-            print("❌ Cannot divide by zero!")
+            print(" Cannot divide by zero! ❌")
 
     else:
-        print("❌ Invalid choice")
+        print(" Invalid choice ❌")
         continue
 
     # Ask user to continue
