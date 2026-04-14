@@ -1,8 +1,8 @@
-# 🔢 Advanced Python Calculator
+#  Advanced Python Calculator
 
 A simple calculator built using Python with loop and error handling.
 
-## 🚀 Features
+##  Features
 - ➕ Addition
 - ➖ Subtraction
 - ✖️ Multiplication
@@ -10,7 +10,7 @@ A simple calculator built using Python with loop and error handling.
 - 🔁 Continuous calculations (loop)
 - ❌ Error handling (invalid input & divide by zero)
 
-## 💻 How to Run
+##  How to Run
 1. Download the file
 2. Run using Python:
 
